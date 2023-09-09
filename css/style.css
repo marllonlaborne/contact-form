@@ -147,3 +147,13 @@ textarea:focus {
   font-size: .813rem;
   margin-right: 8px;
 }
+
+.socials a:hover {
+  color: #000;
+  transition: .3s all ease;
+}
+
+.error-text {
+  font-size: .75rem;
+  color: red;
+}
