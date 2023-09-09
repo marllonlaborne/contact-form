@@ -140,10 +140,20 @@ textarea:focus {
 }
 
 .socials a {
-  color: lightgray;
+  color: rgba(0, 0, 0, 0.2);
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 300;
-  font-size: .78rem;
+  font-weight: 500;
+  font-size: .813rem;
   margin-right: 8px;
+}
+
+.socials a:hover {
+  color: #000;
+  transition: .3s all ease;
+}
+
+.error-text {
+  font-size: .75rem;
+  color: red;
 }
