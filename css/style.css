@@ -93,6 +93,7 @@ fieldset {
   padding: 5px 10px 10px 0;
   border: none;
   border-bottom: 1px solid lightgray;
+  resize: vertical;
 }
 
 input[placeholder],
@@ -123,6 +124,7 @@ textarea:focus {
   border-radius: 6px;
   background-color: #e3b04b ;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .form button:hover {
