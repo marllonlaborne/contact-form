@@ -1,0 +1,38 @@
+@media (max-width: 375px) {
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 345px;
+    height: 100%;
+    margin: 15px 0;
+  }
+  .form-section {
+    padding: 25px;
+  }
+  .form-info fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-info address {
+    word-break: break-word;
+  }
+  .form-info label:nth-child(3),
+  .form-info label:nth-child(5) {
+    margin-top: 20px;
+  }
+  .form-info label {
+    font-weight: bold;
+    font-size: .82rem;
+  }
+  .form button {
+    margin-bottom: 15px;
+  }
+  .illustration {
+    width: 100%;
+    grid-row: 2;
+  }
+  .illustration img {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 12px;
+  }
+}
